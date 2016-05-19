@@ -1,0 +1,46 @@
+/*Colors for logos and backgrounds (Cedar Ridge Graphics)
+light blue: #0069aa
+dark blue:  #004b8d
+maroon:     #740f2f (I Don't like this one too much, plain maroon looks better)
+*/
+
+#house-icon, #building-icon {
+	font-size: 50px; 
+	color: #0069aa;
+	}  
+.jumbotron { 
+  background-color: #0069aa; /* Orange */
+  color: #ffffff;
+  padding: 100px 25px;
+  }
+  
+.bg-grey {
+  background-color: #f6f6f6;
+  }
+  
+.container-fluid {
+  padding: 60px 50px;
+  }
+
+.logo-small {
+  color: #0069aa;
+  font-size: 50px;
+  }
+  
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+  }
